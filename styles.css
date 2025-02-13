@@ -69,6 +69,11 @@ img {
     height: 100%; 
     object-fit: contain;
 }
+canvas{
+    width: 100%; /* or any custom size */
+    height: 100%; 
+    object-fit: contain;
+}
 .pg1-text-1 {
     font-size: 24px;
     font-family: var(--font-family-newsreader);
@@ -263,6 +268,125 @@ img {
 .pg3_right_img_holder{
     margin-top: 3rem;
 }
+
+
+
+.pg4_box{
+    object-fit: contain;
+}
+.pg4_holder{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 5rem;
+}
+.pg4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.pg4_left_title{
+    font-size: 64px;
+  font-family: var(--font-family-newsreader);
+  font-weight: normal;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+}
+.pg4_left_info{
+    opacity: 0.699999988079071;
+  font-size: 32px;
+  font-family: var(--font-family-kiwi-maru);
+  font-weight: normal;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+}
+.pg4_right_img_holder{
+    margin-top: 3rem;
+}
+
+
+
+
+.pg5_box{
+    object-fit: contain;
+}
+.pg5_holder{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 5rem;
+}
+.pg5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.pg5_left_title{
+    font-size: 64px;
+  font-family: var(--font-family-newsreader);
+  font-weight: normal;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+}
+.pg5_left_info{
+    opacity: 0.699999988079071;
+  font-size: 32px;
+  font-family: var(--font-family-kiwi-maru);
+  font-weight: normal;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+}
+.pg5_right_img_holder{
+    margin-top: 3rem;
+}
+
+
+
+
+
+.pg6_box{
+    object-fit: contain;
+}
+.pg6_holder{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 5rem;
+}
+.pg6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.pg6_left_title{
+    font-size: 52px;
+  font-family: var(--font-family-newsreader);
+  font-weight: normal;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+}
+.pg6_left_info{
+    opacity: 0.699999988079071;
+  font-size: 32px;
+  font-family: var(--font-family-kiwi-maru);
+  font-weight: normal;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+}
+.pg6_right_img_holder{
+    margin-top: 3rem;
+}
+
+
+
+.chart{
+    width: 50%;
+    height: 30vh;
+}
+
 
 
 .hidden{
