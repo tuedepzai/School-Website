@@ -470,6 +470,7 @@ table {
     border-radius: 2rem;
     overflow: hidden;
     box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.1);
+    object-fit: contain;
 }
 
 th,
