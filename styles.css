@@ -467,9 +467,9 @@ table {
     width: 100%;
     border-collapse: collapse;
     background: #fff;
-    border-radius: 8px;
+    border-radius: 2rem;
     overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.1);
 }
 
 th,
