@@ -13,8 +13,35 @@
 
 <body>
     <div class="container">
-        <div class="pg1 allscreen">
+        <div class="header">
+            <div class="avt">
+                <img src="Assets/logo.png">
+            </div>
+            <a href="#section1">Ngành nghề</a>
+            <a href="#section2">Mức Lương</a>
+            <a href="#section3">Yếu tố</a>
+        </div>
 
+        <hr>
+     
+        <div class="pg1 allscreen">
+            <div class="img_displayer allscreen">
+                <div class="money_contrainer">
+                    <img src="Assets/money.svg" class="img_money fitimg">
+                </div>
+                <div class="pen_contrainer">
+                    <img src="Assets/pen.svg" class="img_pen fitimg">
+                </div>
+    
+                <div class="suitcase_contrainer">
+                    <img src="Assets/suitcase.svg" class="img_suitcase fitimg">
+                </div>
+    
+                <div class="paper_contrainer">
+                    <img src="Assets/paper.svg" class="img_paper fitimg">
+                </div>
+    
+            </div>
             <div class="text-displayer">
                 <div class="title">
                     <p class="pg1-text-1">
@@ -28,26 +55,11 @@
 
             </div>
         </div>
+        
 
-        <div class="img_displayer allscreen">
-            <div class="money_contrainer">
-                <img src="Assets/money.svg" class="img_money fitimg">
-            </div>
-            <div class="pen_contrainer">
-                <img src="Assets/pen.svg" class="img_pen fitimg">
-            </div>
 
-            <div class="suitcase_contrainer">
-                <img src="Assets/suitcase.svg" class="img_suitcase fitimg">
-            </div>
-
-            <div class="paper_contrainer">
-                <img src="Assets/paper.svg" class="img_paper fitimg">
-            </div>
-
-        </div>
         <hr>
-        <div class="pg2 allscreen">
+        <div class="pg2 allscreen" id="section1">
             <div class="pg2_box">
                 <div class="pg2_holder hidden">
                     <div class="pg2_left_content">
@@ -164,13 +176,15 @@
         </div>
 
         <hr>
-
-        <div class="chart_control">
-            <div class="hidden chart"><canvas id="IT_CHART"></canvas></div>
-            <div class="hidden chart"><canvas id="LOGISTIC_CHART"></canvas></div>
-            <div class="hidden chart"><canvas id="GRAPHIC_DESIGNER_CHART"></canvas></div>
-            <div class="hidden chart"><canvas id="HEALTH_CARE_CHART"></canvas></div>
-            <div class="hidden chart"><canvas id="SOCIAL_MEDIA_CHART"></canvas></div>
+        <div class="pg7 hidden" id="section2">
+            <div class="pg7_title">Những mức lương của các ngành</div>
+            <div class="chart_control">
+                <div class="hidden chart"><canvas id="IT_CHART"></canvas></div>
+                <div class="hidden chart"><canvas id="LOGISTIC_CHART"></canvas></div>
+                <div class="hidden chart"><canvas id="GRAPHIC_DESIGNER_CHART"></canvas></div>
+                <div class="hidden chart"><canvas id="HEALTH_CARE_CHART"></canvas></div>
+                <div class="hidden chart"><canvas id="SOCIAL_MEDIA_CHART"></canvas></div>
+            </div>
         </div>
 
 
@@ -180,10 +194,99 @@
 
 
     </div>
+    <hr>
 
+    <div class="pg8 allscreen" id="section3">
+        <div class="pg8_title hidden">Những yếu tố để chọn ngành</div>
+        <div class="table-container hidden">
+            <table>
+                <tr>
+                    <th>Ngành nghề</th>
+                    <th>Kỹ năng chính</th>
+                </tr>
+                <tr>
+                    <td>Thiết kế Đồ Họa</td>
+                    <td>
+                        <ul>
+                            <li>- Sáng tạo, tư duy thẩm mỹ</li>
+                            <li>- Thành thạo phần mềm thiết kế (Photoshop, Illustrator, Figma...)</li>
+                            <li>- Vẽ tay & Digital Painting</li>
+                            <li>- Kiến thức thương hiệu & truyền thông</li>
+                            <li>- Làm việc nhóm & giao tiếp</li>
+                            <li>- Quản lý thời gian & chịu áp lực</li>
+                            <li>- Tự học, cập nhật xu hướng</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Công nghệ Thông Tin</td>
+                    <td>
+                        <ul>
+                            <li>- Thành thạo ngôn ngữ lập trình (Python, Java, C++...)</li>
+                            <li>- Hiểu về cơ sở dữ liệu, hệ điều hành</li>
+                            <li>- Có kinh nghiệm thực tế, sử dụng Git, DevOps</li>
+                            <li>- Tư duy logic, giải quyết vấn đề</li>
+                            <li>- Kỹ năng làm việc nhóm, giao tiếp</li>
+                            <li>- Bằng cấp, chứng chỉ (AWS, CCNA...)</li>
+                            <li>- Yêu cầu riêng từng vị trí (Lập trình viên, Data Analyst...)</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Logistics</td>
+                    <td>
+                        <ul>
+                            <li>- Quản lý chuỗi cung ứng, kho bãi, vận chuyển</li>
+                            <li>- Phân tích & xử lý dữ liệu (Excel, ERP...)</li>
+                            <li>- Đàm phán, thương lượng với đối tác</li>
+                            <li>- Kiến thức về xuất nhập khẩu, hải quan</li>
+                            <li>- Công nghệ và tự động hóa (TMS, AI trong Logistics)</li>
+                            <li>- Giao tiếp, ngoại ngữ</li>
+                            <li>- Giải quyết vấn đề linh hoạt</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Y – Dược</td>
+                    <td>
+                        <ul>
+                            <li>- Kiến thức y học, dược lý, chẩn đoán bệnh</li>
+                            <li>- Kỹ năng thực hành y khoa, sử dụng thiết bị y tế</li>
+                            <li>- Phân tích & xử lý tình huống khẩn cấp</li>
+                            <li>- Kỹ năng giao tiếp, tư vấn bệnh nhân</li>
+                            <li>- Đạo đức nghề nghiệp, trách nhiệm</li>
+                            <li>- Cập nhật kiến thức, nghiên cứu khoa học</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Marketing – Truyền thông</td>
+                    <td>
+                        <ul>
+                            <li>- Hiểu biết về Marketing, nghiên cứu thị trường</li>
+                            <li>- Sáng tạo nội dung, viết bài quảng cáo</li>
+                            <li>- Thành thạo công cụ Digital Marketing (SEO, Ads...)</li>
+                            <li>- Biết thiết kế hình ảnh, video cơ bản</li>
+                            <li>- Kỹ năng giao tiếp, đàm phán, thuyết trình</li>
+                            <li>- Phân tích dữ liệu, đo lường hiệu quả</li>
+                            <li>- Cập nhật xu hướng, linh hoạt sáng tạo</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <hr>
+    <footer>
+        <div class="footer-container">
+            <p>🌟 Tìm kiếm cơ hội nghề nghiệp phù hợp với bạn! 🌟</p>
+            <p>Khám phá các ngành nghề hot nhất hiện nay và định hướng tương lai của bạn.</p>
+            <p>&copy; 2025 Nhóm 1 - Website hướng nghiệp</p>
+        </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js" type="text/javascript"></script>
-    
+
     <script src="App.js"></script>
 </body>
 

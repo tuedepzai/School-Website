@@ -16,7 +16,7 @@ function createChart() {
 
         options: {
             animation: {
-                delay: 1500,
+                delay:  500,
                 easing: 'easeOutBounce'
             }
         }
@@ -36,7 +36,7 @@ function createChart() {
 
         options: {
             animation: {
-                delay: 1500,
+                delay:  500,
                 easing: 'easeOutBounce'
             }
         }
@@ -57,7 +57,7 @@ function createChart() {
 
         options: {
             animation: {
-                delay: 1500,
+                delay:  500,
                 easing: 'easeOutBounce'
             }
         }
@@ -86,7 +86,7 @@ function createChart() {
         options: {
             responsive: true,
             animation: {
-                duration: 2000,
+                duration:  500,
                 easing: 'easeOutBounce'
             }
            
@@ -118,7 +118,7 @@ function createChart() {
     
         options: {
             animation: {
-                delay: 1500,
+                delay: 1200,
                 easing: 'easeOutBounce'
             },
         }
@@ -126,14 +126,15 @@ function createChart() {
 
 
 }
-
+let showed = false;
 const observer = new IntersectionObserver((entries) => {
     entries.forEach((Entry) => {
         console.log(Entry)
         if (Entry.isIntersecting) {
             Entry.target.classList.add("show");
-            if (Entry.target.className == "hidden chart show") {
+            if (Entry.target.className == "hidden chart show" && !showed) {
                 createChart();
+                showed = true;
             }
         } else {
             if (Entry.target.className != "hidden chart show") {
