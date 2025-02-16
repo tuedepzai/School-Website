@@ -8,7 +8,7 @@
 
 /* width */
 ::-webkit-scrollbar {
-    width: 5px;
+    width: 0.313rem;
 }
 
 /* Track */
@@ -84,7 +84,7 @@ canvas {
 }
 
 .pg1-text-1 {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: var(--font-family-newsreader);
     font-weight: normal;
     text-align: left;
@@ -99,7 +99,7 @@ canvas {
 }
 
 .pg1-text-1-2 {
-    font-size: 64px;
+    font-size: 4rem;
     font-family: var(--font-family-newsreader);
     font-weight: normal;
     text-align: left;
@@ -194,7 +194,7 @@ canvas {
     width: 100%;
     height: 10vh;
     display: inline-block;
-    font-size: 64px;
+    font-size: 4rem;
     font-family: var(--font-family-newsreader);
     font-weight: normal;
     text-align: left;
@@ -211,7 +211,7 @@ canvas {
 .section {
     position: fixed;
     width: 20%;
-    border-right: 1px solid;
+    border-right: 0.063rem solid;
 }
 
 .pg2_box {
@@ -233,7 +233,7 @@ canvas {
 }
 
 .pg2_left_title {
-    font-size: 64px;
+    font-size: 4rem;
     font-family: var(--font-family-newsreader);
     font-weight: normal;
     text-align: left;
@@ -242,7 +242,7 @@ canvas {
 
 .pg2_left_info {
     opacity: 0.699999988079071;
-    font-size: 32px;
+    font-size: 2rem;
     font-family: var(--font-family-kiwi-maru);
     font-weight: normal;
     text-align: left;
@@ -273,7 +273,7 @@ canvas {
 }
 
 .pg3_left_title {
-    font-size: 64px;
+    font-size: 4rem;
     font-family: var(--font-family-newsreader);
     font-weight: normal;
     text-align: left;
@@ -282,7 +282,7 @@ canvas {
 
 .pg3_left_info {
     opacity: 0.699999988079071;
-    font-size: 32px;
+    font-size: 2rem;
     font-family: var(--font-family-kiwi-maru);
     font-weight: normal;
     text-align: left;
@@ -314,7 +314,7 @@ canvas {
 }
 
 .pg4_left_title {
-    font-size: 64px;
+    font-size: 4rem;
     font-family: var(--font-family-newsreader);
     font-weight: normal;
     text-align: left;
@@ -323,7 +323,7 @@ canvas {
 
 .pg4_left_info {
     opacity: 0.699999988079071;
-    font-size: 32px;
+    font-size: 2rem;
     font-family: var(--font-family-kiwi-maru);
     font-weight: normal;
     text-align: left;
@@ -356,7 +356,7 @@ canvas {
 }
 
 .pg5_left_title {
-    font-size: 64px;
+    font-size: 4rem;
     font-family: var(--font-family-newsreader);
     font-weight: normal;
     text-align: left;
@@ -365,7 +365,7 @@ canvas {
 
 .pg5_left_info {
     opacity: 0.699999988079071;
-    font-size: 32px;
+    font-size: 2rem;
     font-family: var(--font-family-kiwi-maru);
     font-weight: normal;
     text-align: left;
@@ -399,7 +399,7 @@ canvas {
 }
 
 .pg6_left_title {
-    font-size: 52px;
+    font-size: 3.25rem;
     font-family: var(--font-family-newsreader);
     font-weight: normal;
     text-align: left;
@@ -408,7 +408,7 @@ canvas {
 
 .pg6_left_info {
     opacity: 0.699999988079071;
-    font-size: 32px;
+    font-size: 2rem;
     font-family: var(--font-family-kiwi-maru);
     font-weight: normal;
     text-align: left;
@@ -422,7 +422,7 @@ canvas {
 .pg7_title {
     width: 100%;
     height: 8vh;
-    font-size: 64px;
+    font-size: 4rem;
     font-family: var(--font-family-newsreader);
     font-weight: normal;
     color: rgba(0, 0, 0, 1);
@@ -433,7 +433,7 @@ canvas {
 .pg8_title {
     width: 100%;
     height: 8vh;
-    font-size: 64px;
+    font-size: 4rem;
     font-family: var(--font-family-newsreader);
     font-weight: normal;
     color: rgba(0, 0, 0, 1);
@@ -475,12 +475,12 @@ table {
 
 th,
 td {
-    padding: 15px;
+    padding: 0.938rem;
     text-align: left;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 0.063rem solid #ddd;
     vertical-align: top;
 
-    font-size: 20px;
+    font-size: 1.25rem;
     font-family: var(--font-family-newsreader);
 
 }
@@ -496,7 +496,7 @@ tr:nth-child(even) {
 
 td:first-child {
 
-    font-size: 20px;
+    font-size: 1.25rem;
     font-family: var(--font-family-newsreader);
     font-weight: normal;
     color: rgba(0, 0, 0, 1);
@@ -529,7 +529,7 @@ li {
 }
 
 .header a {
-    font-size: 20px;
+    font-size: 1.25rem;
     font-family: var(--font-family-newsreader);
     font-weight: normal;
     color: rgba(0, 0, 0, 1);
@@ -549,12 +549,11 @@ footer {
     background-color: #222;
     color: white;
     text-align: center;
-    padding: 15px 0;
-    font-size: 14px;
+    padding: 0.938rem 0;
+    font-size: 0.875rem;
 }
 
 .footer-container {
-    max-width: 800px;
     margin: auto;
 }
 
